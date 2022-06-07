@@ -1,2 +1,2 @@
 
-https://lowech.github.io/ReactApli/build/index.html
+https://lowech.github.io/ReactApli/index.html
