@@ -1,0 +1,100 @@
+.PersonalArea-main{
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: minmax(10px,197px) minmax(475px,90%) minmax(10px,516px);
+    grid-template-rows: 141px 150px minmax(87px, auto);
+}
+.PersonalArea-blockText{
+    width: auto;
+    height: auto;
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+.PersonalArea-block__text{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 58px;
+    line-height: 80px;
+    letter-spacing: 0.2px;
+    color: #252B42;
+    margin: 0px;
+}
+.PersonalArea-blockButton{
+    width: 475px;
+    height: auto;
+    grid-column: 2/3;
+    grid-row: 3/4; 
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.PersonalArea-blockButton__signOut{
+    width: 228px;
+    height: 52px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: #FF685B;
+    border-radius: 5px;
+    border: none;
+    font-family: 'Montserrat',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    text-decoration: none;
+    
+}
+.PersonalArea-blockButton__link{
+    width: 237px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: white;
+    border: 1px solid #FF685B;
+    border-radius: 5px;
+    font-family: 'Montserrat',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 0.2px;
+    color: #FF685B;
+    text-decoration: none;
+}
+
+.PersonalArea-blockButton__signOut:hover{
+    box-shadow: 0px 2px 15px rgb(0 0 0 / 15%);
+    margin: 0px 0px 1px 0px;
+    transition: all 0s ease 0s;
+    cursor: pointer;
+  }
+.PersonalArea-blockButton__link:hover{
+    box-shadow: 0px 2px 8px rgb(0 0 0 / 15%);
+    margin: 0px 0px 1px 0px;
+    transition: all 0s ease 0s;
+    cursor: pointer;
+  }
+
+  @media screen and (max-width: 490px){
+    .PersonalArea-block__text{
+        font-size: 38px;
+        line-height: 39px;
+    }
+    .PersonalArea-main{
+        grid-template-columns: minmax(10px,197px) minmax(300px,90%) minmax(10px,516px);
+        grid-template-rows: 70px 75px minmax(87px, auto);
+    }
+    .PersonalArea-blockButton{
+        width: auto;
+        height: 160px;
+        align-items: flex-end;
+    }
+  }

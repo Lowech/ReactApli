@@ -1,0 +1,23 @@
+.Contacts-main{
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: minmax(10px,197px) minmax(280px,90%) minmax(10px,5%);
+    grid-template-rows: 184px auto;
+}
+.Contacts-block{
+    width: auto;
+    height: auto;
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+.Contacts-block__text{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 58px;
+    line-height: 80px;
+    letter-spacing: 0.2px;
+    color: #252B42;
+    margin: 0px;
+}
